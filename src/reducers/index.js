@@ -1,0 +1,9 @@
+import { combineReducers } from "redux";
+
+export default combineReducers({
+  sample: () => {
+    return {
+      a: "a"
+    };
+  }
+});
